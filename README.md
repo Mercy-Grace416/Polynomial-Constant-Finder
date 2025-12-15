@@ -46,7 +46,7 @@ Step 5: Calculating product of roots...
   Current product: 2
   Current product: 6
   Product calculated: 6
-  For test case 1:6(even)
-  For test case 2:-10(odd)
-  
+Outputs:- 
+The constant term c = 6
+The constant term c = -10
 
