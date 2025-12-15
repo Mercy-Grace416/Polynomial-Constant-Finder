@@ -158,3 +158,54 @@ public class PolynomialConstantFinder {
         return Long.parseLong(value, base);
     }
 }
+## Sample Outputs
+Test Case 1
+Step 1: Reading input.json file...
+File loaded successfully!
+Step 2: Understanding the requirements...
+Total roots provided: 4
+Minimum roots needed: 3
+Polynomial degree: 2
+Step 3: Decoding all roots from their bases...
+Root 1: '2' in base-10 = 2
+Root 2: '11' in base-2 = 3
+Root 3: '7' in base-8 = 7
+Root 4: 'A' in base-16 = 10
+All roots decoded!
+Step 4: Selecting roots for calculation...
+Using first 2 roots for polynomial of degree 2
+Selected root 1: 2
+Selected root 2: 3
+Step 5: Calculating product of roots...
+Current product: 2
+Current product: 6
+Degree is EVEN (2) → constant is POSITIVE
+The constant term c = 6  
+
+### Test Case 2
+Step 1: Reading input.json file...
+File loaded successfully!
+Step 2: Understanding the requirements...
+Total roots provided: 3
+Minimum roots needed: 4
+Polynomial degree: 3
+Step 3: Decoding all roots from their bases...
+Root 1: '1' in base-10 = 1
+Root 2: '10' in base-2 = 2
+Root 3: '5' in base-10 = 5
+All roots decoded!
+Step 4: Selecting roots for calculation...
+Using first 3 roots for polynomial of degree 3
+Selected root 1: 1
+Selected root 2: 2
+Selected root 3: 5
+Step 5: Calculating product of roots...
+Current product: 1
+Current product: 2
+Current product: 10
+Degree is ODD (3) → constant is NEGATIVE
+The constant term c = -10
+
+
+
+
