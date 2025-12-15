@@ -19,6 +19,7 @@ Only the minimum required roots(`k - 1`) are used, where `k` is provided in
 the input file.
 RESULT
 The constant term c = 6
+The constant term c = -10
 === Starting Polynomial Constant Finder ===
 
 Step 1: Reading input.json file...
@@ -45,7 +46,7 @@ Step 5: Calculating product of roots...
   Current product: 2
   Current product: 6
   Product calculated: 6
-
-
-  Degree is EVEN (2) → constant is POSITIVE                                                      # Polynomial Constant Finder (JSON Input)
+  For test case 1:6(even)
+  For test case 2:-10(odd)
+  
 
